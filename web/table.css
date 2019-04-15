@@ -1,0 +1,112 @@
+body{ 
+	margin:4px; 
+	background: #dddddd;
+} 
+
+a, a:link, a:visited, a:active { color: #222222; }
+a:hover { border-bottom: 1px dotted #c1c1c1; color: #FF2222; }
+
+#navbg { height:31px }
+
+.nav{
+	position:fixed;top:0px;left:0; margin:0 ;width: 100%; border: 1px solid #CCC; height:30px; background: #eee;
+	padding:0;
+	list-style-type:none;
+	float:left;
+	z-index:9999;
+}
+.nav li {
+	float:left;
+	padding:0;
+	margin:0 2px 0 0;
+	_margin:0 2px 0 0;
+	width:125px;
+}
+.nav li dl {
+	width:125px;/*ie6*/
+	margin:0;
+	padding:0;
+	background-color:#fff;
+//	border:solid 2px #666;
+}
+.nav li dt a , .nav li dd a{ display:block;}
+.nav li dt {
+	margin:0;
+	padding: 5px;
+	text-align:center;
+	background-color:#fff;
+	font-size: 14px;
+	font-weight: bold;
+	height:15px;
+	overflow:hidden;
+}
+.nav li dt a , .nav li dt a:visited {
+	display:block;
+	color:#333;
+	text-decoration:none;
+}
+.nav li dd {
+	margin:0;
+	padding:;
+	text-align:center;
+	color: #333;
+	background-color:#ffffff;
+	border-bottom:dotted 1px #666;
+}
+.nav li dd.last {
+	border-bottom:0;
+}
+.nav li dd a, .nav li dd a:visited {
+	display:block;
+	color:#333;
+	text-decoration:none;
+	padding:4px 5px 4px 4px;
+}
+.nav li dd { display:none;}
+.nav li:hover dd, .nav li a:hover dd { display:block;}
+/*ie6 hack*/
+.nav li:hover, .nav li a:hover { border:0;}
+.nav table { border-collapse:collapse;
+	padding:0;
+	text-align:left;
+}
+
+table{ 
+	border:1px; 
+	solid:#000 
+} 
+
+table th{ 
+	height:28px; 
+	color: #ffffff;
+	width: auto; 
+	background:#0000aa; 
+	font-weight:bold 
+} 
+
+
+th a, th a:link, th a:visited, th a:active { color: #FFFFFF; }
+
+table tbody tr{ 
+	height:28px; 
+	background:#e1f4fd;
+	vertical-align:middle; 
+} 
+
+table tbody tr:nth-child(odd){ 
+	background-color: #d9e0ff 
+} 
+
+table tbody tr:hover{ 
+	background-color: #ffffff; 
+} 
+
+.info:link {
+	text-decoration:none;
+	color:black;
+}
+.info:visited {
+	text-decoration:none;
+	color:black;
+}
+
