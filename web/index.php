@@ -78,7 +78,7 @@ $cmd = safe_get("cmd");
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=8.0"/>
 <link href="table.css" type="text/css" rel="stylesheet" /> 
-<title>fsyy.ustc.edu.cn eduroam用户管理</title>
+<title>eduroam用户管理</title>
 </head>
 <body>
 
